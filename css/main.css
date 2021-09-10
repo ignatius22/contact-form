@@ -352,6 +352,7 @@ footer {
   display: flex;
   flex-direction: column;
 }
+
 .group-input {
   display: flex;
   width: 100%;
@@ -390,7 +391,7 @@ input {
   width: 20%;
   margin-top: 3%;
   background-color: #f55800;
-  color: #ffffff;
+  color: #fff;
   padding: 10px;
   border: none;
   cursor: pointer;
