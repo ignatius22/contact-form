@@ -326,21 +326,50 @@ li {
   list-style: inside url("../media/svg/circle.svg");
 }
 
-footer{}
+footer {
+}
 
-.form-container{
+.form-container {
   display: flex;
   justify-content: space-between;
   width: 90%;
 }
 
-.form-container p{
+.form-container p {
   width: 35%;
   margin-left: 5%;
 }
 
-.inputs{
+.inputs {
   width: 50%;
   display: flex;
   flex-direction: column;
+}
+.group-input {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.fname {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.lname {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-left: 3%;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+input{
+  padding: 10px;
 }
