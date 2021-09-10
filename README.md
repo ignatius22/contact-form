@@ -16,7 +16,7 @@ Additional description about the project and its features.
 - VSCode
 
 
-[Live Demo Link](https://awesome-aryabhata-aa3120.netlify.app/)
+[Live Demo Link](https://ignatius22.github.io/contact-form/)
 
 ### Deployment
 
