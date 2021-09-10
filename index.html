@@ -292,13 +292,30 @@
       </div>
     </main>
     <footer>
-      <form action="https://formspree.io/f/xdoyydwq" method="POST">
-        <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
-        <div>
-          <label for="fname">First Name</label>
-          <input type="text" />
-          <label for="lname">Last Name</label>
-          <input type="text" />
+      <form
+        action="https://formspree.io/f/xdoyydwq"
+        method="POST"
+        class="form-container"
+      >
+        <p>
+          I'm always interested in hearing about new projects, so if you'd like
+          to chat please get in touch.
+        </p>
+        <div class="inputs">
+          <div class="group-input">
+            <div>
+              <label for="fname">First Name</label>
+              <input type="text" />
+            </div>
+            <div>
+              <label for="lname">Last Name</label>
+              <input type="text" />
+            </div>
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" />
+          </div>
           <textarea
             name="body"
             id=""
