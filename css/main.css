@@ -329,17 +329,22 @@ li {
 footer {
   height: 500px;
   margin-top: 3%;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
 }
 
 .form-container {
   display: flex;
   justify-content: space-between;
   width: 90%;
+  margin-left: 5%;
 }
 
 .form-container p {
   width: 35%;
-  margin-left: 5%;
+  font-weight: lighter;
+  font-size: 50px;
 }
 
 .inputs {
@@ -372,12 +377,33 @@ footer {
   width: 100%;
 }
 
-input{
-  padding: 10px;
+input {
+  padding: 14px;
   margin-bottom: 2%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
 }
 
-.btn-intouch{
+.btn-intouch {
   width: 20%;
   margin-top: 3%;
+  background-color: #f55800;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+textarea {
+  background: #fbf8f7;
+  border: none;
+  outline: none;
+}
+
+::placeholder {
+  color: #979493;
+  font-size: 0.89em;
+  padding-bottom: 42px;
 }
