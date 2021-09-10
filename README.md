@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Hello-Microverse
+# Contact Form
 
 > The project is a training exercise for anyone who wants to apply as a code reviewer at microverse.
 
