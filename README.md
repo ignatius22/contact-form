@@ -1,5 +1,51 @@
-# curriculum-cr-training-contact-form
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This repo host an initial code for the tasks performed during the Code Reviewers training.
+# Hello-Microverse
 
-Application is based on this [Figma design](https://www.figma.com/file/t3EJUCAEViw3QasuJLPLVT/Microverse-Student-Potfolio-Templates-Main?node-id=1%3A1471).
+> The project is a training exercise for anyone who wants to apply as a code reviewer at microverse.
+
+![screenshot](./app_screenshot'.png)
+
+Additional description about the project and its features.
+
+## Built With
+
+- HTML
+- style with CSS.
+- Github
+- VSCode
+
+
+[Live Demo Link](https://awesome-aryabhata-aa3120.netlify.app/)
+
+### Deployment
+
+- Deployed using github pages
+
+## Authors
+
+👤 **Ignatius Sani**
+
+- GitHub: [@ignatius22](https://github.com/ignatius22)
+- Twitter: [iggy_code](https://twitter.com/iggy_code)
+- LinkedIn: [ignatiussani](https://linkedin.com/in/ignatiussani)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/ignatius22/contact-form.git/issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
