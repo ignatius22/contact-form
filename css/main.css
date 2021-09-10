@@ -327,6 +327,8 @@ li {
 }
 
 footer {
+  height: 500px;
+  margin-top: 3%;
 }
 
 .form-container {
@@ -372,4 +374,10 @@ footer {
 
 input{
   padding: 10px;
+  margin-bottom: 2%;
+}
+
+.btn-intouch{
+  width: 20%;
+  margin-top: 3%;
 }
