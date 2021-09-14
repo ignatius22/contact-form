@@ -325,3 +325,86 @@ li {
 .skills {
   list-style: inside url("../media/svg/circle.svg");
 }
+
+footer {
+  height: 400px;
+  margin-top: 3%;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.form-container p {
+  width: 35%;
+  font-weight: lighter;
+  font-size: 50px;
+}
+
+.inputs {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.group-input {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.fname {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.lname {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-left: 3%;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+input {
+  padding: 14px;
+  margin-bottom: 2%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+}
+
+.btn-intouch {
+  width: 20%;
+  margin-top: 3%;
+  background-color: #f55800;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+textarea {
+  background: #fbf8f7;
+  border: none;
+  outline: none;
+}
+
+::placeholder {
+  color: #979493;
+  font-size: 0.89em;
+  padding-bottom: 42px;
+}
