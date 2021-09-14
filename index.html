@@ -304,26 +304,25 @@
         <div class="inputs">
           <div class="group-input">
             <div class="fname">
-   
-              <input type="text" placeholder="First Name" />
+              <input type="text" placeholder="First Name" required maxlength="30"/>
             </div>
             <div class="lname">
-          
-              <input type="text" placeholder="Last Name"/>
+              <input type="text" placeholder="Last Name" required maxlength="30" />
             </div>
           </div>
           <div class="email">
-        
-            <input type="email" placeholder="Email address"/>
+            <input type="email" placeholder="Email address" required />
           </div>
           <textarea
             name="body"
             id="body"
             cols="30"
             rows="10"
+            required
+            maxlength="500"
             placeholder="Hello Mariane. Glad to see you |"
           ></textarea>
-          <button class="btn-intouch" type="button">Get in touch</button>
+          <button class="btn-intouch" type="submit">Get in touch</button>
         </div>
       </form>
     </footer>
